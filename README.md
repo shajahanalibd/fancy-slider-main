@@ -1,1 +1,1 @@
-# slider
+# fancy-slider-main
