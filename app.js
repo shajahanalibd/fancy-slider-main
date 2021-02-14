@@ -138,8 +138,8 @@ search.addEventListener('keyup', function (event) {
 //slider negative time alert
 sliderBtn.addEventListener('click', function () {
   const doration = document.getElementById('doration').value || 1000;
-  if (doration < 0) {
-      alert('Slider time cant be negative(-)');
+  if (doration < 1000) {
+      alert('Slider time cant be less than(1000)');
   } else {
       createSlider();
   }
